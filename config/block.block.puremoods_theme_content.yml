@@ -1,0 +1,22 @@
+uuid: 9e93093b-0b7c-414c-b481-3e09ba4a3257
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - puremoods_theme
+_core:
+  default_config_hash: YRY68JWkaUiGeZlWMv1nzeIgDm0ZZwXYgpqUpLFzwAY
+id: puremoods_theme_content
+theme: puremoods_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

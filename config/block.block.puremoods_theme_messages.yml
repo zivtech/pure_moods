@@ -1,0 +1,22 @@
+uuid: 7530af76-1d1c-4d9b-9c75-14e872b7fc16
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - puremoods_theme
+_core:
+  default_config_hash: XJqWwLt1LDCnazcEN6QkJmCLjk4R0__-8s0OO9xeNjg
+id: puremoods_theme_messages
+theme: puremoods_theme
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

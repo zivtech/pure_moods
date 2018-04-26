@@ -1,0 +1,72 @@
+/**
+ * Place your custom styles here.
+ */
+/*
+
+/* Sometimes field titles are fieldset, sometimes label, sometimes panel-title. Why??? Make them look all the same. */
+label,
+.panel-title,
+.big-radio legend {
+  font-size: 14px;
+  margin: 0;
+  border: none;
+  font-weight: normal;
+  padding: 0 20px 15px 4px;
+}
+
+/* Create big buttons for radio items */
+.big-radio .form-item.radio {
+  display: inline-block;
+}
+
+.big-radio label {
+  padding: 1em;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.big-radio label.active {
+  background: yellow;
+}
+
+.big-radio label input {
+  display: none;
+}
+
+/* Why are the labels inline?? */
+label {
+  display: block;
+}
+
+/* Add extra margin around inner fieldset to give it space, negative side margins to make field labels line up.*/
+#edit-field-address-wrapper {
+  margin: 30px -15px;
+}
+
+/* This room number field is full width?? */
+#edit-field-room-number-wrapper input {
+  width: auto;
+}
+
+/* Make the submit button on the right and with a margin on the bottom so it stands out. */
+#edit-submit {
+  float: right;
+  width: auto;
+  display: block;
+  min-width: 20em;
+  padding: 1em;
+}
+
+/* The required asterisk is too close to the text! This is purely aesthetic. */
+.form-required:after {
+  width: 14px;
+  height: 14px;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+/* Add padding so page elements don't get lost among the busy viewport edges. */
+body {
+  padding: 5em 0;
+}

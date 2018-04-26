@@ -1,0 +1,20 @@
+uuid: 8394c4ee-cfa8-4b91-b6c1-e12e4f8a557b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - puremoods_theme
+_core:
+  default_config_hash: HHryZVJbeKi9WnuBGC8FOhBZmBnk2G1H6KxFuy-rC9A
+id: puremoods_theme_local_actions
+theme: puremoods_theme
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: cc7391c9-9a62-43ba-8a3c-95f6dcfb57c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.lecture
+  module:
+    - text
+id: node.lecture.body
+field_name: body
+entity_type: node
+bundle: lecture
+label: Description
+description: 'Enter a description of your lecture so that guests will know what it''s about.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

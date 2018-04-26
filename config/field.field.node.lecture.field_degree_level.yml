@@ -1,0 +1,23 @@
+uuid: 679fff87-c63b-427a-846c-69f0e3b3694c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_degree_level
+    - node.type.lecture
+  module:
+    - options
+id: node.lecture.field_degree_level
+field_name: field_degree_level
+entity_type: node
+bundle: lecture
+label: 'Degree Level'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: Undergraduate
+default_value_callback: ''
+settings: {  }
+field_type: list_string

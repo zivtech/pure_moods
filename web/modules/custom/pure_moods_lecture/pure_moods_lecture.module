@@ -1,0 +1,54 @@
+<?php
+
+/**
+ * @file
+ * Contains pure_moods_lecture.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function pure_moods_lecture_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the pure_moods_lecture module.
+    case 'help.page.pure_moods_lecture':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function pure_moods_lecture_theme() {
+  return [
+    'pure_moods_lecture' => [
+      'render element' => 'children',
+    ],
+  ];
+}
+
+function pure_moods_lecture_page_attachments(array &$page) {
+  $page['#attached']['library'][] = 'pure_moods_lecture/pure_moods_lecture';
+}
+
+function pure_moods_lecture_form_node_lecture_form_alter(&$form, &$form_state, $form_id) {
+
+  // Change submit button text.
+  $form['actions']['submit']['#value'] = t('Create Lecture');
+
+  // Add big-radio class to campus and degree level fields.
+  $form['field_campus']['#attributes']['class'][] = 'big-radio';
+  $form['field_degree_level']['#attributes']['class'][] = 'big-radio';
+
+  // Make US default address country.
+  if (empty($form['field_address']['widget'][0]['address']['#default_value']['country_code'])) {
+    $form['field_address']['widget'][0]['address']['#default_value']['country_code'] = 'US';
+  }
+}

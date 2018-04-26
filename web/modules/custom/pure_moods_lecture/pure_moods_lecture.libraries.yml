@@ -1,0 +1,13 @@
+pure_moods_lecture:
+  version: 1.x
+  css:
+    theme:
+      components/select2/dist/css/select2.css:
+        minified: false
+  js:
+    components/select2/dist/js/select2.js:
+      minified: false
+    js/pure_moods_lecture.js:
+      minified: false
+  dependencies:
+    - core/jquery

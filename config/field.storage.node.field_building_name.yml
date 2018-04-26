@@ -1,0 +1,777 @@
+uuid: fb7ceafa-6c67-42ef-b5f0-ded28ac2efee
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_building_name
+field_name: field_building_name
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Anatomy Chemistry Building of the School of Medicine'
+      label: 'Anatomy Chemistry Building of the School of Medicine'
+    -
+      value: 'Andrew Mutch Building'
+      label: 'Andrew Mutch Building'
+    -
+      value: 'Annenberg Center for the Performing Arts'
+      label: 'Annenberg Center for the Performing Arts'
+    -
+      value: 'Annenberg Public Policy Center'
+      label: 'Annenberg Public Policy Center'
+    -
+      value: 'Annenberg School for Communication'
+      label: 'Annenberg School for Communication'
+    -
+      value: 'Annenberg School Library'
+      label: 'Annenberg School Library'
+    -
+      value: 'ARCH, The'
+      label: 'ARCH, The'
+    -
+      value: 'Architectural Archives / Kroiz Gallery'
+      label: 'Architectural Archives / Kroiz Gallery'
+    -
+      value: 'Arthur Ross Gallery'
+      label: 'Arthur Ross Gallery'
+    -
+      value: 'Biddle Law Library - Tanenbaum Hall'
+      label: 'Biddle Law Library - Tanenbaum Hall'
+    -
+      value: 'Biomedical Library - Johnson Pavilion'
+      label: 'Biomedical Library - Johnson Pavilion'
+    -
+      value: 'Biomedical Research Building'
+      label: 'Biomedical Research Building'
+    -
+      value: 'Blanche P. Levy Park'
+      label: 'Blanche P. Levy Park'
+    -
+      value: 'Blockley Hall'
+      label: 'Blockley Hall'
+    -
+      value: 'Boathouse, University of Pennsylvania'
+      label: 'Boathouse, University of Pennsylvania'
+    -
+      value: 'Bookstore, University of Pennsylvania'
+      label: 'Bookstore, University of Pennsylvania'
+    -
+      value: 'Burrison Gallery'
+      label: 'Burrison Gallery'
+    -
+      value: 'Carolyn Lynch Laboratory'
+      label: 'Carolyn Lynch Laboratory'
+    -
+      value: 'Caster Building'
+      label: 'Caster Building'
+    -
+      value: 'Center for Healthcare Technology'
+      label: 'Center for Healthcare Technology'
+    -
+      value: 'Chancellor Street, 3216'
+      label: 'Chancellor Street, 3216'
+    -
+      value: 'Charles Addams Fine Arts Hall'
+      label: 'Charles Addams Fine Arts Hall'
+    -
+      value: 'Chemistry Laboratories:  Cret Wing'
+      label: 'Chemistry Laboratories:  Cret Wing'
+    -
+      value: 'Chemistry Laboratories: 1958 Wing'
+      label: 'Chemistry Laboratories: 1958 Wing'
+    -
+      value: 'Chemistry Laboratories: 1973 Wing'
+      label: 'Chemistry Laboratories: 1973 Wing'
+    -
+      value: 'Chemistry Library - Chem 1973 Wing'
+      label: 'Chemistry Library - Chem 1973 Wing'
+    -
+      value: 'Chestnut Hall'
+      label: 'Chestnut Hall'
+    -
+      value: 'Chestnut Street, 3910'
+      label: 'Chestnut Street, 3910'
+    -
+      value: 'Chestnut Street, 3930'
+      label: 'Chestnut Street, 3930'
+    -
+      value: 'Chestnut Street, 4508'
+      label: 'Chestnut Street, 4508'
+    -
+      value: 'Cinema, The'
+      label: 'Cinema, The'
+    -
+      value: 'Civic House'
+      label: 'Civic House'
+    -
+      value: 'Class of 1920 Commons'
+      label: 'Class of 1920 Commons'
+    -
+      value: 'Class of 1923 Ice Rink'
+      label: 'Class of 1923 Ice Rink'
+    -
+      value: 'Class of 1925  (Gregory College House)'
+      label: 'Class of 1925  (Gregory College House)'
+    -
+      value: 'Class of 1949 Bridge'
+      label: 'Class of 1949 Bridge'
+    -
+      value: 'Clinical Research Building'
+      label: 'Clinical Research Building'
+    -
+      value: 'Cohen Hall, Claudia'
+      label: 'Cohen Hall, Claudia'
+    -
+      value: 'College Hall'
+      label: 'College Hall'
+    -
+      value: 'Colonial Penn Center'
+      label: 'Colonial Penn Center'
+    -
+      value: 'Counseling and Psychological Services (CAPS)'
+      label: 'Counseling and Psychological Services (CAPS)'
+    -
+      value: 'Cupp Pavilion'
+      label: 'Cupp Pavilion'
+    -
+      value: Cyclotron
+      label: Cyclotron
+    -
+      value: 'David Rittenhouse Laboratory'
+      label: 'David Rittenhouse Laboratory'
+    -
+      value: 'Dental Medicine Library - Evans Building'
+      label: 'Dental Medicine Library - Evans Building'
+    -
+      value: 'Divinity Site : Main Chapel'
+      label: 'Divinity Site : Main Chapel'
+    -
+      value: Domus
+      label: Domus
+    -
+      value: 'Du Bois College House, W.E.B.'
+      label: 'Du Bois College House, W.E.B.'
+    -
+      value: 'Duhring Wing'
+      label: 'Duhring Wing'
+    -
+      value: 'Dunning Coaches'' Center, James D.'
+      label: 'Dunning Coaches'' Center, James D.'
+    -
+      value: 'Education Commons - Franklin Field'
+      label: 'Education Commons - Franklin Field'
+    -
+      value: 'Evans Building'
+      label: 'Evans Building'
+    -
+      value: 'Evans Building - Main Clinic and Schattner Addition'
+      label: 'Evans Building - Main Clinic and Schattner Addition'
+    -
+      value: 'Evo at Cira Center South'
+      label: 'Evo at Cira Center South'
+    -
+      value: 'Fagin Hall, Claire M.'
+      label: 'Fagin Hall, Claire M.'
+    -
+      value: 'Fisher - Bennett Hall'
+      label: 'Fisher - Bennett Hall'
+    -
+      value: 'Fisher Fine Arts Library, Anne and Jerome'
+      label: 'Fisher Fine Arts Library, Anne and Jerome'
+    -
+      value: 'FMC Tower at Cira Centre South'
+      label: 'FMC Tower at Cira Centre South'
+    -
+      value: 'Fox Gallery'
+      label: 'Fox Gallery'
+    -
+      value: 'Fox-Fels Hall'
+      label: 'Fox-Fels Hall'
+    -
+      value: 'Franklin Building'
+      label: 'Franklin Building'
+    -
+      value: 'Franklin Building Annex'
+      label: 'Franklin Building Annex'
+    -
+      value: 'Franklin Field'
+      label: 'Franklin Field'
+    -
+      value: 'Fresh Grocer'
+      label: 'Fresh Grocer'
+    -
+      value: 'Gittis Hall'
+      label: 'Gittis Hall'
+    -
+      value: 'Glenolden Research Laboratory'
+      label: 'Glenolden Research Laboratory'
+    -
+      value: 'Goddard Laboratories'
+      label: 'Goddard Laboratories'
+    -
+      value: 'Goldie Paley Memorial Bridge'
+      label: 'Goldie Paley Memorial Bridge'
+    -
+      value: 'Golkin Hall'
+      label: 'Golkin Hall'
+    -
+      value: 'Graduate Research Wing of the Moore School'
+      label: 'Graduate Research Wing of the Moore School'
+    -
+      value: 'Graduate School of Education Building'
+      label: 'Graduate School of Education Building'
+    -
+      value: 'Grays Ferry Avenue, 3401 (Pennovation Works)'
+      label: 'Grays Ferry Avenue, 3401 (Pennovation Works)'
+    -
+      value: 'Greenfield Intercultural Center'
+      label: 'Greenfield Intercultural Center'
+    -
+      value: 'Harnwell College House'
+      label: 'Harnwell College House'
+    -
+      value: 'Harrison College House'
+      label: 'Harrison College House'
+    -
+      value: 'Hayden Hall'
+      label: 'Hayden Hall'
+    -
+      value: 'Hecht Tennis Center'
+      label: 'Hecht Tennis Center'
+    -
+      value: 'Highline Park'
+      label: 'Highline Park'
+    -
+      value: 'Hill College House'
+      label: 'Hill College House'
+    -
+      value: 'Hill Pavilion, Vernon and Shirley'
+      label: 'Hill Pavilion, Vernon and Shirley'
+    -
+      value: 'Hill Square'
+      label: 'Hill Square'
+    -
+      value: 'Hillel at Steinhardt Hall'
+      label: 'Hillel at Steinhardt Hall'
+    -
+      value: 'Hollenback Annex'
+      label: 'Hollenback Annex'
+    -
+      value: 'Hollenback Center'
+      label: 'Hollenback Center'
+    -
+      value: 'Hospital of the University of Pennsylvania'
+      label: 'Hospital of the University of Pennsylvania'
+    -
+      value: 'Houston Hall'
+      label: 'Houston Hall'
+    -
+      value: 'Hub 3939'
+      label: 'Hub 3939'
+    -
+      value: 'Hub, The'
+      label: 'Hub, The'
+    -
+      value: 'Huntsman Hall, Jon M.'
+      label: 'Huntsman Hall, Jon M.'
+    -
+      value: 'Hutchinson Gymnasium'
+      label: 'Hutchinson Gymnasium'
+    -
+      value: 'Inn at Penn, Hilton'
+      label: 'Inn at Penn, Hilton'
+    -
+      value: 'Institute of Contemporary Art'
+      label: 'Institute of Contemporary Art'
+    -
+      value: 'International House Philadelphia'
+      label: 'International House Philadelphia'
+    -
+      value: 'Iron Gate Theatre'
+      label: 'Iron Gate Theatre'
+    -
+      value: 'Irvine Auditorium'
+      label: 'Irvine Auditorium'
+    -
+      value: 'Jaffe History of Art Building, Elliot and Roslyn'
+      label: 'Jaffe History of Art Building, Elliot and Roslyn'
+    -
+      value: 'John Morgan Building'
+      label: 'John Morgan Building'
+    -
+      value: 'Johnson Pavilion, Robert Wood'
+      label: 'Johnson Pavilion, Robert Wood'
+    -
+      value: 'Jordan Medical Education Center'
+      label: 'Jordan Medical Education Center'
+    -
+      value: 'Kane Park, Edward W.'
+      label: 'Kane Park, Edward W.'
+    -
+      value: 'Kaskey Park'
+      label: 'Kaskey Park'
+    -
+      value: 'Katz Center for Advanced Judaic Studies, Herbert D.'
+      label: 'Katz Center for Advanced Judaic Studies, Herbert D.'
+    -
+      value: 'Kelly Writers House'
+      label: 'Kelly Writers House'
+    -
+      value: 'Kings Court / English College House'
+      label: 'Kings Court / English College House'
+    -
+      value: 'Laboratory for Research on the Structure of Matter'
+      label: 'Laboratory for Research on the Structure of Matter'
+    -
+      value: 'Lauder-Fischer Hall'
+      label: 'Lauder-Fischer Hall'
+    -
+      value: 'Left Bank, The'
+      label: 'Left Bank, The'
+    -
+      value: 'Leidy Laboratories of Biology'
+      label: 'Leidy Laboratories of Biology'
+    -
+      value: 'Lerner Center'
+      label: 'Lerner Center'
+    -
+      value: 'Levin Building, Stephen A.'
+      label: 'Levin Building, Stephen A.'
+    -
+      value: 'Levine Hall, Melvin and Claire - Weiss Tech House'
+      label: 'Levine Hall, Melvin and Claire - Weiss Tech House'
+    -
+      value: 'Levy Center for Oral Health Research'
+      label: 'Levy Center for Oral Health Research'
+    -
+      value: 'LGBTC (Carriage House)'
+      label: 'LGBTC (Carriage House)'
+    -
+      value: 'Locust House'
+      label: 'Locust House'
+    -
+      value: 'Locust Walk, 3609-11'
+      label: 'Locust Walk, 3609-11'
+    -
+      value: 'Locust Walk, 3615'
+      label: 'Locust Walk, 3615'
+    -
+      value: 'Locust Walk, 3619'
+      label: 'Locust Walk, 3619'
+    -
+      value: 'Mabel Pew Myrin Pavilion'
+      label: 'Mabel Pew Myrin Pavilion'
+    -
+      value: 'Market Street, 3401'
+      label: 'Market Street, 3401'
+    -
+      value: 'Market Street, 3440'
+      label: 'Market Street, 3440'
+    -
+      value: 'Market Street, 3535'
+      label: 'Market Street, 3535'
+    -
+      value: 'Market Street, 3600'
+      label: 'Market Street, 3600'
+    -
+      value: 'Market Street, 3615'
+      label: 'Market Street, 3615'
+    -
+      value: 'Market Street, 3624'
+      label: 'Market Street, 3624'
+    -
+      value: 'Market Street, 3700'
+      label: 'Market Street, 3700'
+    -
+      value: 'Market Street, 3701'
+      label: 'Market Street, 3701'
+    -
+      value: 'Market Street, 3910'
+      label: 'Market Street, 3910'
+    -
+      value: 'Math/Physics/Astronomy Library - DRL'
+      label: 'Math/Physics/Astronomy Library - DRL'
+    -
+      value: 'Mayer Residence Hall (Stouffer College House)'
+      label: 'Mayer Residence Hall (Stouffer College House)'
+    -
+      value: 'McKenzie / Brown Galleries'
+      label: 'McKenzie / Brown Galleries'
+    -
+      value: 'McNeil Building'
+      label: 'McNeil Building'
+    -
+      value: 'McNeil Center for Early American Studies'
+      label: 'McNeil Center for Early American Studies'
+    -
+      value: 'Medical Arts Building'
+      label: 'Medical Arts Building'
+    -
+      value: 'Medical Office Building'
+      label: 'Medical Office Building'
+    -
+      value: 'Meiklejohn Stadium - Murphy Field'
+      label: 'Meiklejohn Stadium - Murphy Field'
+    -
+      value: 'Meyerson Hall'
+      label: 'Meyerson Hall'
+    -
+      value: 'Meyerson Hall - Century Bond'
+      label: 'Meyerson Hall - Century Bond'
+    -
+      value: 'Module 7 Utility Building'
+      label: 'Module 7 Utility Building'
+    -
+      value: 'Moore School Building'
+      label: 'Moore School Building'
+    -
+      value: 'Morgan Building'
+      label: 'Morgan Building'
+    -
+      value: 'Morris Arboretum of the University of Pennsylvania'
+      label: 'Morris Arboretum of the University of Pennsylvania'
+    -
+      value: 'Museum Academic Wing, University'
+      label: 'Museum Academic Wing, University'
+    -
+      value: 'Museum Coxe and Harrison Renovation'
+      label: 'Museum Coxe and Harrison Renovation'
+    -
+      value: 'Museum Library - Academic Wing'
+      label: 'Museum Library - Academic Wing'
+    -
+      value: 'Museum of Archaeology and Anthropology, University of Pennsylvania'
+      label: 'Museum of Archaeology and Anthropology, University of Pennsylvania'
+    -
+      value: 'New Bolton Center School of Veterinary Medicine'
+      label: 'New Bolton Center School of Veterinary Medicine'
+    -
+      value: 'New College House at Hill Field'
+      label: 'New College House at Hill Field'
+    -
+      value: 'New College House West'
+      label: 'New College House West'
+    -
+      value: 'Newman Center'
+      label: 'Newman Center'
+    -
+      value: Palestra
+      label: Palestra
+    -
+      value: 'Parent Infant Center'
+      label: 'Parent Infant Center'
+    -
+      value: 'Parking Garage: Chestnut 34'
+      label: 'Parking Garage: Chestnut 34'
+    -
+      value: 'Parking Garage: Cira Centre South'
+      label: 'Parking Garage: Cira Centre South'
+    -
+      value: 'Parking Garage: Civic Center Boulevard'
+      label: 'Parking Garage: Civic Center Boulevard'
+    -
+      value: 'Parking Garage: Curie'
+      label: 'Parking Garage: Curie'
+    -
+      value: 'Parking Garage: Penn Museum'
+      label: 'Parking Garage: Penn Museum'
+    -
+      value: 'Parking Garage: Presbyterian'
+      label: 'Parking Garage: Presbyterian'
+    -
+      value: 'Parking Garage: Spruce 38'
+      label: 'Parking Garage: Spruce 38'
+    -
+      value: 'Parking Garage: Walnut 32'
+      label: 'Parking Garage: Walnut 32'
+    -
+      value: 'Parking Garage: Walnut 38'
+      label: 'Parking Garage: Walnut 38'
+    -
+      value: 'Parking Garage: Walnut 40'
+      label: 'Parking Garage: Walnut 40'
+    -
+      value: Pavilion
+      label: Pavilion
+    -
+      value: 'Penn Center for Rehabilitation and Care'
+      label: 'Penn Center for Rehabilitation and Care'
+    -
+      value: 'Penn Children''s Center'
+      label: 'Penn Children''s Center'
+    -
+      value: 'Penn Dental at the Schattner Center'
+      label: 'Penn Dental at the Schattner Center'
+    -
+      value: 'Penn Dental Center at University City'
+      label: 'Penn Dental Center at University City'
+    -
+      value: 'Penn Dental Research Greenhouse'
+      label: 'Penn Dental Research Greenhouse'
+    -
+      value: 'Penn Libraries Research Annex (LIBRA)'
+      label: 'Penn Libraries Research Annex (LIBRA)'
+    -
+      value: 'Penn Medicine University City'
+      label: 'Penn Medicine University City'
+    -
+      value: 'Penn Park'
+      label: 'Penn Park'
+    -
+      value: 'Penn Presbyterian Advanced Care Pavilion'
+      label: 'Penn Presbyterian Advanced Care Pavilion'
+    -
+      value: 'Penn Transit Maintenance Center'
+      label: 'Penn Transit Maintenance Center'
+    -
+      value: 'Penn Transplant House'
+      label: 'Penn Transplant House'
+    -
+      value: 'Penn Vet Working Dog Center'
+      label: 'Penn Vet Working Dog Center'
+    -
+      value: 'Pennovation Center'
+      label: 'Pennovation Center'
+    -
+      value: 'Perelman Center For Advanced Medicine'
+      label: 'Perelman Center For Advanced Medicine'
+    -
+      value: 'Perelman Center For Advanced Medicine South Tower'
+      label: 'Perelman Center For Advanced Medicine South Tower'
+    -
+      value: 'Perelman Center for Political Science and Economics'
+      label: 'Perelman Center for Political Science and Economics'
+    -
+      value: 'Perry World House'
+      label: 'Perry World House'
+    -
+      value: 'Philadelphia Heart Institute'
+      label: 'Philadelphia Heart Institute'
+    -
+      value: 'Platt Student Performing Arts House'
+      label: 'Platt Student Performing Arts House'
+    -
+      value: 'Post Office (former)'
+      label: 'Post Office (former)'
+    -
+      value: 'Pottruck Health and Fitness Center, David'
+      label: 'Pottruck Health and Fitness Center, David'
+    -
+      value: 'President''s House'
+      label: 'President''s House'
+    -
+      value: 'Public Safety, University of Pennsylvania'
+      label: 'Public Safety, University of Pennsylvania'
+    -
+      value: 'Quadrangle, The'
+      label: 'Quadrangle, The'
+    -
+      value: 'Radian, The'
+      label: 'Radian, The'
+    -
+      value: 'Ralston House'
+      label: 'Ralston House'
+    -
+      value: 'Richards Medical Research Laboratories'
+      label: 'Richards Medical Research Laboratories'
+    -
+      value: 'Ringe Squash Courts'
+      label: 'Ringe Squash Courts'
+    -
+      value: 'River Fields'
+      label: 'River Fields'
+    -
+      value: 'Robbins House'
+      label: 'Robbins House'
+    -
+      value: 'Roberts Proton Therapy Center'
+      label: 'Roberts Proton Therapy Center'
+    -
+      value: 'Rodin College House'
+      label: 'Rodin College House'
+    -
+      value: 'Rosenthal Building, The Gladys Hall'
+      label: 'Rosenthal Building, The Gladys Hall'
+    -
+      value: Rotunda
+      label: Rotunda
+    -
+      value: 'Ryan Veterinary Hospital of the University of Pennsylvania'
+      label: 'Ryan Veterinary Hospital of the University of Pennsylvania'
+    -
+      value: 'Sadie Tanner Mossell Alexander School'
+      label: 'Sadie Tanner Mossell Alexander School'
+    -
+      value: 'Sansom Place East'
+      label: 'Sansom Place East'
+    -
+      value: 'Sansom Place West'
+      label: 'Sansom Place West'
+    -
+      value: 'Sansom Street, 3414'
+      label: 'Sansom Street, 3414'
+    -
+      value: 'Sansom Street, 3428-36'
+      label: 'Sansom Street, 3428-36'
+    -
+      value: 'Sansom Street, 3808'
+      label: 'Sansom Street, 3808'
+    -
+      value: 'Schattner Center, The Robert'
+      label: 'Schattner Center, The Robert'
+    -
+      value: 'Scheie Eye Institute'
+      label: 'Scheie Eye Institute'
+    -
+      value: 'Sheraton University City'
+      label: 'Sheraton University City'
+    -
+      value: 'Shoemaker Green'
+      label: 'Shoemaker Green'
+    -
+      value: 'Silverman Hall'
+      label: 'Silverman Hall'
+    -
+      value: 'Singh Center for Nanotechnology, Krishna P.'
+      label: 'Singh Center for Nanotechnology, Krishna P.'
+    -
+      value: 'Skirkanich Hall'
+      label: 'Skirkanich Hall'
+    -
+      value: 'Smilow Center for Translational Research'
+      label: 'Smilow Center for Translational Research'
+    -
+      value: 'Solomon Building'
+      label: 'Solomon Building'
+    -
+      value: 'Spruce House'
+      label: 'Spruce House'
+    -
+      value: 'Spruce Street, 3905'
+      label: 'Spruce Street, 3905'
+    -
+      value: 'St. Leonard''s Complex'
+      label: 'St. Leonard''s Complex'
+    -
+      value: 'Steinberg Conference Center'
+      label: 'Steinberg Conference Center'
+    -
+      value: 'Steinberg Hall - Dietrich Hall'
+      label: 'Steinberg Hall - Dietrich Hall'
+    -
+      value: 'Stellar - Chance Laboratories'
+      label: 'Stellar - Chance Laboratories'
+    -
+      value: 'Stemmler Hall, Edward J.'
+      label: 'Stemmler Hall, Edward J.'
+    -
+      value: 'Stiteler Hall'
+      label: 'Stiteler Hall'
+    -
+      value: 'Stouffer College House'
+      label: 'Stouffer College House'
+    -
+      value: 'Student Health Service'
+      label: 'Student Health Service'
+    -
+      value: 'Sweeten Alumni House, E. Craig Sweeten'
+      label: 'Sweeten Alumni House, E. Craig Sweeten'
+    -
+      value: 'Tanenbaum Hall, Nicole E.'
+      label: 'Tanenbaum Hall, Nicole E.'
+    -
+      value: 'Towne Building'
+      label: 'Towne Building'
+    -
+      value: 'Translational Research Laboratory'
+      label: 'Translational Research Laboratory'
+    -
+      value: 'Vagelos Laboratories of the IAST, Roy and Diana'
+      label: 'Vagelos Laboratories of the IAST, Roy and Diana'
+    -
+      value: 'Van Pelt - Dietrich Library Center: Kislak Center; Lippincott Library; Music Library; Weigle Commons'
+      label: 'Van Pelt - Dietrich Library Center: Kislak Center; Lippincott Library; Music Library; Weigle Commons'
+    -
+      value: 'Van Pelt Manor (Gregory College House)'
+      label: 'Van Pelt Manor (Gregory College House)'
+    -
+      value: 'Vance Hall'
+      label: 'Vance Hall'
+    -
+      value: 'Veterinary Med Library - Hill Pavilion'
+      label: 'Veterinary Med Library - Hill Pavilion'
+    -
+      value: 'Veterinary Medicine Old Quadrangle'
+      label: 'Veterinary Medicine Old Quadrangle'
+    -
+      value: 'Walnut Street, 2401'
+      label: 'Walnut Street, 2401'
+    -
+      value: 'Walnut Street, 3025'
+      label: 'Walnut Street, 3025'
+    -
+      value: 'Walnut Street, 3101'
+      label: 'Walnut Street, 3101'
+    -
+      value: 'Walnut Street, 3401'
+      label: 'Walnut Street, 3401'
+    -
+      value: 'Walnut Street, 3808 - 3810'
+      label: 'Walnut Street, 3808 - 3810'
+    -
+      value: 'Walnut Street, 3809'
+      label: 'Walnut Street, 3809'
+    -
+      value: 'Walnut Street, 3815'
+      label: 'Walnut Street, 3815'
+    -
+      value: 'Walnut Street, 3901'
+      label: 'Walnut Street, 3901'
+    -
+      value: 'Walnut Street, 3933'
+      label: 'Walnut Street, 3933'
+    -
+      value: 'Walnut Street, 4015'
+      label: 'Walnut Street, 4015'
+    -
+      value: 'Weave Bridge'
+      label: 'Weave Bridge'
+    -
+      value: 'Webster Manor'
+      label: 'Webster Manor'
+    -
+      value: 'Weightman Hall'
+      label: 'Weightman Hall'
+    -
+      value: 'Weingarten Learning Resources Center'
+      label: 'Weingarten Learning Resources Center'
+    -
+      value: 'Weiss Pavilion, George A.'
+      label: 'Weiss Pavilion, George A.'
+    -
+      value: 'Wharton Academic Research Building'
+      label: 'Wharton Academic Research Building'
+    -
+      value: 'Wharton School: San Francisco'
+      label: 'Wharton School: San Francisco'
+    -
+      value: 'Williams Hall'
+      label: 'Williams Hall'
+    -
+      value: 'Wistar Institute'
+      label: 'Wistar Institute'
+    -
+      value: 'Wright / Saunders Building'
+      label: 'Wright / Saunders Building'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

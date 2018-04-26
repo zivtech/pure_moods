@@ -1,0 +1,21 @@
+uuid: af84f9b8-dcde-4609-8b6d-3164e96c2254
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_and_time
+    - node.type.lecture
+  module:
+    - datetime
+id: node.lecture.field_date_and_time
+field_name: field_date_and_time
+entity_type: node
+bundle: lecture
+label: 'Date and Time'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

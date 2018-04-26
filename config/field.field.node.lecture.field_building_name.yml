@@ -1,0 +1,21 @@
+uuid: c8d5b77c-91c2-43c1-b849-4436becc2acc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_building_name
+    - node.type.lecture
+  module:
+    - options
+id: node.lecture.field_building_name
+field_name: field_building_name
+entity_type: node
+bundle: lecture
+label: 'Building Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

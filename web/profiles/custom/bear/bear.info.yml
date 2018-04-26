@@ -1,0 +1,49 @@
+name: Bear
+type: profile
+description: 'A profile to give developers the tools needed for just about any site.'
+version: 8.x-dev
+core: 8.x
+dependencies:
+  # Core extensions.
+  - node
+  - block
+  - breakpoint
+  - ckeditor
+  - config
+  - environment_indicator
+  - datetime
+  - block_content
+  - editor
+  - entity_reference
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - taxonomy
+  - responsive_image
+  - dblog
+  - toolbar
+  - field_ui
+  - file
+  - views
+  - views_ui
+  - search
+  # Contrib extensions.
+  - admin_toolbar
+  - admin_toolbar_tools
+  - ckeditor_media_embed
+  - ctools
+  - diff
+  - editor_advanced_link
+  - entity_reference_revisions
+  - paragraphs
+  - pathauto
+  - simple_sitemap
+  - token
+  - components
+themes:
+  - bear_skin
+  - seven

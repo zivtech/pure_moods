@@ -1,0 +1,108 @@
+uuid: 9a0d3c2a-938d-4a33-ad97-a545e51b4007
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_category
+field_name: field_category
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Agricultural biotechnology'
+      label: 'Agricultural biotechnology'
+    -
+      value: 'Animal and Dairy Science'
+      label: 'Animal and Dairy Science'
+    -
+      value: 'Artificial Intelligence'
+      label: 'Artificial Intelligence'
+    -
+      value: Astrophysics
+      label: Astrophysics
+    -
+      value: 'Biomedical Engineering'
+      label: 'Biomedical Engineering'
+    -
+      value: 'Chemical Engineering'
+      label: 'Chemical Engineering'
+    -
+      value: 'Civil Engineering'
+      label: 'Civil Engineering'
+    -
+      value: 'Clinical Medicine'
+      label: 'Clinical Medicine'
+    -
+      value: 'Drupal Theming'
+      label: 'Drupal Theming'
+    -
+      value: 'Earth Sciences'
+      label: 'Earth Sciences'
+    -
+      value: 'Environmental Sciences'
+      label: 'Environmental Sciences'
+    -
+      value: Ethics
+      label: Ethics
+    -
+      value: Ghosts
+      label: Ghosts
+    -
+      value: 'Industrial Biotechnology'
+      label: 'Industrial Biotechnology'
+    -
+      value: 'Information Technology'
+      label: 'Information Technology'
+    -
+      value: 'Nano technology'
+      label: 'Nano technology'
+    -
+      value: Neuroscience
+      label: Neuroscience
+    -
+      value: 'Paranormal Studies'
+      label: 'Paranormal Studies'
+    -
+      value: Philosophy
+      label: Philosophy
+    -
+      value: 'PHP Composer'
+      label: 'PHP Composer'
+    -
+      value: Psychology
+      label: Psychology
+    -
+      value: Religion
+      label: Religion
+    -
+      value: Robotics
+      label: Robotics
+    -
+      value: 'Signal Processing'
+      label: 'Signal Processing'
+    -
+      value: Techtonics
+      label: Techtonics
+    -
+      value: 'Veterinary Sciences'
+      label: 'Veterinary Sciences'
+    -
+      value: 'Web Content'
+      label: 'Web Content'
+    -
+      value: 'Web Development'
+      label: 'Web Development'
+    -
+      value: 'Web Theming'
+      label: 'Web Theming'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

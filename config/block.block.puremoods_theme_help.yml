@@ -1,0 +1,22 @@
+uuid: 25d8f7e7-2b24-4e1a-883f-ec8364affd49
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - puremoods_theme
+_core:
+  default_config_hash: NU5A_49mwLHfs5xFzMFrZ850w9pgUolxMS9NNF3vv4c
+id: puremoods_theme_help
+theme: puremoods_theme
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

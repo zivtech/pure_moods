@@ -1,0 +1,30 @@
+uuid: 120d66f7-9e26-4cfc-8ceb-f83012901d9c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_campus
+field_name: field_campus
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'University City'
+      label: 'University City'
+    -
+      value: 'Center City'
+      label: 'Center City'
+    -
+      value: 'Queen Lane'
+      label: 'Queen Lane'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

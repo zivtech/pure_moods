@@ -1,0 +1,22 @@
+uuid: e3e589d8-8e9c-4f66-9d87-e49f3661d9b9
+langcode: en
+status: true
+dependencies:
+  module:
+    - hide_revision_field
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  hide_revision_field:
+    hide: true
+    personalizable: false
+name: Lecture
+type: lecture
+description: 'A demo content type that will require fields related to a lecture.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: true

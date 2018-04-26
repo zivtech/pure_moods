@@ -1,0 +1,22 @@
+uuid: 37a406b8-ef91-4818-9f1e-116aba17395a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - puremoods_theme
+_core:
+  default_config_hash: QeZBeCilQfeET3GeW6ZtJkEiwROADTZktFgKWwPieD4
+id: puremoods_theme_secondary_local_tasks
+theme: puremoods_theme
+region: navigation
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

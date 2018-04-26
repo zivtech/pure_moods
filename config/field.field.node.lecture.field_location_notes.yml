@@ -1,0 +1,21 @@
+uuid: 8bd5628a-3ef3-480a-a9a7-2091bb795a2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location_notes
+    - node.type.lecture
+  module:
+    - text
+id: node.lecture.field_location_notes
+field_name: field_location_notes
+entity_type: node
+bundle: lecture
+label: 'Location Notes'
+description: 'Please add any details people may need to know, such as special instructions to enter, whether they will need id, handicap accessibility, etc.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
